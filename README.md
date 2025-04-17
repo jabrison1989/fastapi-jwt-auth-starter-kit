@@ -11,12 +11,6 @@ Includes:
 - Bcrypt password hashing
 - Swagger UI + SQLite support
 
-## 🔗 Get the Kit
-
-This project is distributed as a downloadable ZIP via Gumroad:
-
-👉 https://brijac3.gumroad.com/l/jwt-auth-kit
-
 ## ⚡ Quick Preview
 
 - `/register`, `/login`, and `/me` routes included
@@ -36,3 +30,11 @@ This project is distributed as a downloadable ZIP via Gumroad:
 
 **Token returned**
 ![token](authorization_token.png)
+
+---
+
+## 📦 Get the Kit
+
+This project is distributed as a downloadable ZIP via Gumroad:
+
+👉 [https://brijac3.gumroad.com/l/jwt-auth-kit](https://brijac3.gumroad.com/l/jwt-auth-kit)
