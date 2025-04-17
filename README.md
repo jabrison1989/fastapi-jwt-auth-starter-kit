@@ -1,9 +1,6 @@
-# fastapi-jwt-auth-starter-kit
-FastAPI JWT authentication starter kit with login, register, Docker, and bearer token routes
-
 # FastAPI JWT Auth Starter Kit
 
-A plug-and-play authentication microservice built with FastAPI, JWT, and Docker support.
+A plug-and-play authentication microservice built with FastAPI, JWT, and Docker support with login, register, Docker, and bearer token routes
 
 Includes:
 - Register/Login routes
