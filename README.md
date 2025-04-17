@@ -38,3 +38,10 @@ Includes:
 This project is distributed as a downloadable ZIP via Gumroad:
 
 👉 [https://brijac3.gumroad.com/l/jwt-auth-kit](https://brijac3.gumroad.com/l/jwt-auth-kit)
+
+---
+
+## 🔖 Tags
+
+`fastapi` `jwt` `authentication` `starter-kit` `login-system`  
+`python` `backend` `docker` `sqlite` `bcrypt` `api-security`
