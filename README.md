@@ -22,3 +22,17 @@ This project is distributed as a downloadable ZIP via Gumroad:
 - `/register`, `/login`, and `/me` routes included
 - JWT tokens using `python-jose`
 - Dockerized with `.env` support
+
+## 🔍 Preview
+
+**Register route**
+![register](register_route.png)
+
+**Login route**
+![login](login_route.png)
+
+**/me route (get user)**
+![get user](get_user_route.png)
+
+**Token returned**
+![token](authorization_token.png)
