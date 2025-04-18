@@ -37,7 +37,7 @@ A plug-and-play authentication microservice built with FastAPI, JWT, and Docker 
 **Login route**  
 ![login](login_route.png)
 
-**Token returned us in Swagger UI Authorization**  
+**Token returned used in Swagger UI Authorization**  
 ![token](authorization_token.png)
 
 **/me route (get user)**  
