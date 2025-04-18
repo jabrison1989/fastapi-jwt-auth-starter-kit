@@ -1,12 +1,25 @@
 # FastAPI JWT Auth Starter Kit
 
-A plug-and-play authentication microservice built with FastAPI, JWT, and Docker support with login, register, Docker, and bearer token routes
+FastAPI JWT authentication starter kit with login, register, Docker, and bearer token routes.
 
-Includes:
+---
+
+## 📦 Get the Kit
+
+👉 [Download the Starter Kit on Gumroad](https://brijac3.gumroad.com/l/jwt-auth-kit)
+
+A plug-and-play authentication microservice built with FastAPI, JWT, and Docker support.
+
+---
+
+## ✅ Includes
+
 - Register/Login routes
 - JWT token auth
 - Bcrypt password hashing
 - Swagger UI + SQLite support
+
+---
 
 ## ⚡ Quick Preview
 
@@ -14,31 +27,24 @@ Includes:
 - JWT tokens using `python-jose`
 - Dockerized with `.env` support
 
-## 🔍 Preview
+---
 
-**Register route**
+## 🔍 Screenshots
+
+**Register route**  
 ![register](register_route.png)
 
-**Login route**
+**Login route**  
 ![login](login_route.png)
 
-**/me route (get user)**
+**/me route (get user)**  
 ![get user](get_user_route.png)
 
-**Token returned**
+**Token returned**  
 ![token](authorization_token.png)
 
 ---
 
-## 📦 Get the Kit
-
-This project is distributed as a downloadable ZIP via Gumroad:
+## 📦 Get the Kit Again (in case you scrolled fast)
 
 👉 [https://brijac3.gumroad.com/l/jwt-auth-kit](https://brijac3.gumroad.com/l/jwt-auth-kit)
-
----
-
-## 🔖 Tags
-
-`fastapi` `jwt` `authentication` `starter-kit` `login-system`  
-`python` `backend` `docker` `sqlite` `bcrypt` `api-security`
