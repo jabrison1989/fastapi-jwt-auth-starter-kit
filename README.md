@@ -8,6 +8,8 @@ FastAPI JWT authentication starter kit with login, register, Docker, and bearer 
 
 👉 [Download the Starter Kit on Gumroad](https://brijac3.gumroad.com/l/jwt-auth-kit)
 
+[👉 Jump to FAQ](#-faq)
+
 A plug-and-play authentication microservice built with FastAPI, JWT, and Docker support.
 
 ---
@@ -50,3 +52,27 @@ A plug-and-play authentication microservice built with FastAPI, JWT, and Docker 
 ## 📦 Get the Kit Again (in case you scrolled fast)
 
 👉 [https://brijac3.gumroad.com/l/jwt-auth-kit](https://brijac3.gumroad.com/l/jwt-auth-kit)
+
+---
+
+## ❓ FAQ
+
+**Q: Can I use this in production?**  
+A: Yes — for small apps, prototypes, internal tools, and indie projects.  
+It's built with security best practices (hashed passwords, JWT, route protection).  
+For enterprise use, you should add rate limiting, logging, 2FA, and additional auth flows.
+
+**Q: Is this better than Auth0 or Firebase?**  
+A: This kit is meant to be simple and self-hosted — no external dependencies.  
+It’s great if you want full control and don't want to integrate large third-party auth platforms.
+
+**Q: Does it support OAuth or social login?**  
+A: Not yet. It’s built as a minimal starting point.  
+You can extend it to include OAuth, refresh tokens, or role-based access.
+
+**Q: What database does it use?**  
+A: SQLite by default, with easy Docker support for Postgres or MySQL.
+
+**Q: Is this project actively maintained?**  
+A: It’s not under full-time development — but it’s clean, documented, and plug-and-play ready.
+
