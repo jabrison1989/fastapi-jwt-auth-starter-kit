@@ -5,7 +5,8 @@ FastAPI JWT authentication starter kit with login, register, Docker, and bearer 
 ---
 
 ## 📦 Get the Kit
-
+⚠️ This is a paid starter kit. The source code is **not included** in this repository.  
+    It’s available for download via Gumroad:
 👉 [Download the Starter Kit on Gumroad](https://brijac3.gumroad.com/l/jwt-auth-kit)
 
 [👉 Jump to FAQ](#-faq)
@@ -14,12 +15,14 @@ A plug-and-play authentication microservice built with FastAPI, JWT, and Docker 
 
 ---
 
-## ✅ Includes
+## 📦 What's in the Kit?
 
 - Register/Login routes
 - JWT token auth
 - Bcrypt password hashing
-- Swagger UI + SQLite support
+- Docker-ready setup
+- Swagger docs
+- SQLite by default, Postgres-compatible
 
 ---
 
