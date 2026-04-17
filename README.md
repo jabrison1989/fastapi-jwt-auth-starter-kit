@@ -1,21 +1,40 @@
-# 🔐 FastAPI AuthService
+# FastAPI Auth Service
 
-A lightweight, plug-and-play authentication microservice built with FastAPI and JWT.  
-Perfect for indie developers, SaaS prototypes, and internal tools that need secure user management — fast.
+A modular authentication microservice built with FastAPI and JWT, designed to demonstrate secure authentication patterns, service decomposition, and reusable system design.
 
----
+## Problem
+Applications frequently need authentication, but building it repeatedly leads to inconsistent security practices and duplicated effort.
 
-## ✅ Features
+## Solution
+This project provides a reusable authentication service with JWT-based access control, clean separation of concerns, and extensible architecture for integration into larger systems.
 
-- 🔒 Secure user registration & login
-- 🔐 JWT-based authentication
-- 🧂 Bcrypt password hashing
-- 📦 SQLite by default (MySQL/Postgres-ready)
-- 🧱 Modular architecture (easy to extend)
-- 🔌 Simple route prefixing (`/auth/*`)
-- ⚙️ Environment-based configuration
-- 📄 Pydantic schemas + SQLAlchemy models
-- 🧪 Swagger API docs out-of-the-box
+## Key Design Decisions
+- Stateless JWT authentication for scalability
+- Modular service structure for maintainability
+- Environment-driven configuration for deployment flexibility
+- Default SQLite with support for scaling to MySQL/Postgres
+
+## Why It Matters
+
+This project demonstrates how to:
+- Design a reusable service instead of one-off logic
+- Separate concerns between routing, services, and data models
+- Implement secure authentication workflows
+- Build systems that can evolve from prototype to production
+
+These patterns are directly applicable to larger distributed systems and platform engineering work.
+
+## Features
+
+- Secure user registration & login
+- JWT-based authentication
+- Bcrypt password hashing
+- SQLite by default (MySQL/Postgres-ready)
+- Modular architecture (easy to extend)
+- Simple route prefixing (`/auth/*`)
+- Environment-based configuration
+- Pydantic schemas + SQLAlchemy models
+- Swagger API docs out-of-the-box
 
 ---
 
@@ -35,15 +54,15 @@ auth_service/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Unzip the project
 
-After purchasing, extract the `.zip` file to your development directory:
+Clone the repository and run locally:
 
 ```bash
-unzip fastapi-authservice.zip
-cd auth_service
+git clone https://github.com/jabrison1989/fastapi-jwt-auth-starter-kit.git
+cd fastapi-jwt-auth-starter-kit
 ```
 
 ### 2. Install dependencies
@@ -70,7 +89,7 @@ Visit Swagger docs at [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## 🔑 API Routes
+## API Routes
 
 | Method | Route           | Description         |
 |--------|------------------|---------------------|
@@ -80,7 +99,7 @@ Visit Swagger docs at [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## ⚙️ Configuration Options (`.env`)
+## Configuration Options (`.env`)
 
 | Key                  | Description                     |
 |----------------------|---------------------------------|
@@ -90,7 +109,7 @@ Visit Swagger docs at [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## 🧪 Example Request
+## Example Request
 
 ### Register
 
@@ -121,28 +140,19 @@ Returns:
 }
 ```
 
-> 💡 **Swagger Tip**: When authenticating using the Swagger “Authorize” button, paste **only the token value** — do **not** include `Bearer `, Swagger will add it for you automatically.
+> **Swagger Tip**: When authenticating using the Swagger “Authorize” button, paste **only the token value** — do **not** include `Bearer `, Swagger will add it for you automatically.
 
 ---
 
-## 🧠 Recommended Use Cases
+## Limitations / Tradeoffs
 
-- 🕹 Indie games or MMO backends
-- 🚀 SaaS MVPs needing fast auth
-- 🛠 Developer tools with gated access
-- 👥 Any solo project that doesn't need full-blown Auth0
+This project is intentionally lightweight and does not include advanced production features such as:
+- Rate limiting
+- Token revocation / rotation strategies
+- Multi-factor authentication
+- Distributed session management
 
----
-
-## ⚠️ Disclaimer
-
-This is a lightweight, developer-focused starter service built for speed and simplicity.  
-It’s not a full-scale auth system like Auth0 or Firebase.
-
-While I’ve tested everything and structured it cleanly, this is not actively maintained as a long-term project — it's meant to save you time by giving you a solid foundation to build on.
-
-If you're looking for enterprise-grade support or constant updates, this may not be the right fit.  
-But if you're a solo dev or small team who needs to plug in authentication fast — this will get you moving.
+It is designed as a foundation to demonstrate authentication patterns and can be extended to meet production requirements.
 
 ---
 
@@ -153,8 +163,5 @@ You may **not** resell this code as a standalone product.
 
 ---
 
-## 👋 Built by Jacob Brison
-
-If this saved you time, consider leaving a ⭐ rating or sharing the link with other developers who might find it useful.
-
-Have questions or feedback? Reach out to me directly — I’d love to hear from you.
+## Author
+Jacob Brison
