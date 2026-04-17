@@ -56,7 +56,7 @@ auth_service/
 
 ## Getting Started
 
-### 1. Unzip the project
+### 1. Clone the project
 
 Clone the repository and run locally:
 
